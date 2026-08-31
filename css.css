@@ -1,0 +1,2150 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.mini-titulo {
+    color: #6657A6;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.hero {
+    margin: 35px 45px;
+    height: 480px;
+
+    padding: 55px;
+
+    border-radius: 30px;
+
+    background-color: #fff3b0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+.hero-texto {
+    width: 62%;
+}
+
+.hero h1 {
+    color: #40356F;
+
+    font-size: 52px;
+
+    line-height: 1.1;
+
+    font-weight: 700;
+
+    margin-top: 22px;
+}
+
+.hero h1 span {
+    display: block;
+
+    color: #6657A6;
+}
+
+.hero p {
+    width: 620px;
+
+    color: #625B70;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-top: 20px;
+}
+
+.botoes-hero {
+    margin-top: 28px;
+}
+
+
+/* ILUSTRAÇÃO */
+
+.hero-ilustracao {
+    width: 35%;
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.livro-grande {
+   font-size: 175px;
+   border-radius: 50px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+}
+
+.decoracao {
+    position: absolute;
+
+    color: #6657A6;
+
+    font-size: 40px;
+}
+
+.estrela-1 {
+    top: 45px;
+    right: 65px;
+}
+
+.estrela-2 {
+    bottom: 85px;
+    left: 45px;
+}
+
+.folha {
+    top: 110px;
+    left: 40px;
+
+    font-size: 35px;
+}
+
+.cafe {
+    right: 40px;
+    bottom: 45px;
+
+    font-size: 50px;
+}
+
+
+/* ==========================================
+   LIVROS
+========================================== */
+
+.secao {
+    padding: 65px 45px;
+}
+
+.titulo-secao {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.titulo-secao h2 {
+    color: #40356F;
+
+    font-size: 34px;
+
+    margin: 8px 0 3px;
+}
+
+.titulo-secao p {
+    color: #777080;
+
+    margin: 0;
+}
+
+
+.livro-card {
+    border: none;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    box-shadow: 0 7px 25px #40356f14;
+
+    transition: 0.2s;
+}
+
+.livro-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 30px rgba(64, 53, 111, 0.14);
+}
+
+.capa {
+    height: 190px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 82px;
+}
+
+.capa-1 {
+    background-color: #E6D8FF;
+    height: 190px;
+}
+
+.capa-2 {
+    background-color: #FFF3B0;
+    height: 190px;
+}
+
+.capa-3 {
+    background-color: #DCCFF8;
+    height: 190px;
+}
+
+.capa-4 {
+    background-color: #FFE9A8;
+    height: 190px;
+}
+
+.categoria {
+    color: #6657A6;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+}
+
+.livro-card h5 {
+    color: #40356F;
+
+    margin-top: 8px;
+}
+
+.livro-card p {
+    color: #777080;
+
+    line-height: 1.5;
+}
+
+.livro-info {
+    display: flex;
+
+    gap: 18px;
+
+    color: #6657A6;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   FRASE
+========================================== */
+
+.frase {
+    background-color: #40356F;
+
+    padding: 65px 45px;
+
+    text-align: center;
+}
+
+.frase-conteudo {
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.frase-conteudo > span {
+    color: #FFF3B0;
+
+    font-size: 35px;
+}
+
+.frase h2 {
+    color: white;
+
+    font-size: 32px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    margin: 12px 0;
+}
+
+.frase p {
+    color: #DDD7ED;
+
+    margin: 0;
+}
+
+
+/* ==========================================
+   COMUNIDADE
+========================================== */
+
+.comunidade {
+    background-color: #F8F5FF;
+
+    padding-top: 80px;
+
+    padding-bottom: 80px;
+}
+
+.comunidade h2 {
+    color: #40356F;
+
+    font-size: 40px;
+
+    margin: 12px 0;
+}
+
+.comunidade h2 span {
+    color: #6657A6;
+
+    display: block;
+}
+
+.comunidade > .row > div > p {
+    color: #777080;
+
+    line-height: 1.7;
+
+    max-width: 570px;
+
+    margin-bottom: 25px;
+}
+
+
+/* PREVIEW DO CHAT */
+
+.chat-preview {
+    background-color: white;
+
+    border-radius: 22px;
+
+    padding: 20px;
+
+    box-shadow: 0 8px 30px rgba(64, 53, 111, 0.1);
+}
+
+.chat-preview-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #EEEAF5;
+
+    color: #40356F;
+}
+
+.chat-preview-header span {
+    color: #6657A6;
+
+    font-size: 12px;
+}
+
+.preview-mensagem {
+    display: flex;
+
+    gap: 12px;
+
+    padding: 15px;
+
+    margin-top: 8px;
+
+    background-color: #F4F0FF;
+
+    border-radius: 15px;
+}
+
+.preview-mensagem.enviada {
+    background-color: #FFF3B0;
+
+    margin-left: 90px;
+}
+
+.mini-avatar {
+    width: 40px;
+    height: 40px;
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+.preview-mensagem strong {
+    color: #40356F;
+
+    font-size: 14px;
+}
+
+.preview-mensagem p {
+    color: #777080;
+
+    font-size: 13px;
+
+    margin: 3px 0 0;
+}
+
+
+/* ==========================================
+   PÓDIO
+========================================== */
+
+.podio-secao {
+    background-color: #FFF8D6;
+}
+
+.ranking-card {
+    background-color: white;
+
+    border-radius: 20px;
+
+    padding: 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    box-shadow: 0 5px 20px rgba(64, 53, 111, 0.06);
+}
+
+.ranking-card.primeiro {
+    background-color: #FFF3B0;
+}
+
+.ranking-posicao {
+    color: #6657A6;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    width: 35px;
+}
+
+.ranking-avatar {
+    width: 55px;
+    height: 55px;
+
+    background-color: #F1ECFF;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 28px;
+}
+
+.ranking-card h4 {
+    color: #40356F;
+
+    margin: 0;
+
+    font-size: 18px;
+}
+
+.ranking-card p {
+    color: #777080;
+
+    margin: 3px 0 0;
+
+    font-size: 13px;
+}
+
+.ranking-card > span {
+    margin-left: auto;
+
+    color: #6657A6;
+
+    font-size: 23px;
+}
+
+
+/* ==========================================
+   EVENTOS
+========================================== */
+
+.eventos-secao {
+    padding: 70px 45px;
+
+    background-color: #F8F5FF;
+}
+
+.eventos-conteudo {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+.eventos-conteudo h2 {
+    color: #40356F;
+
+    font-size: 34px;
+
+    margin: 8px 0 3px;
+}
+
+.eventos-conteudo p {
+    color: #777080;
+
+    margin: 0;
+}
+
+.eventos-lista {
+    background-color: white;
+
+    border-radius: 22px;
+
+    padding: 8px 25px;
+
+    box-shadow: 0 5px 20px rgba(64, 53, 111, 0.06);
+}
+
+.evento {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #EEEAF5;
+}
+
+.evento:last-child {
+    border-bottom: none;
+}
+
+.data-evento {
+    width: 60px;
+    height: 60px;
+
+    background-color: #6657A6;
+
+    border-radius: 15px;
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.data-evento strong {
+    font-size: 22px;
+}
+
+.data-evento small {
+    font-size: 9px;
+}
+
+.evento-info {
+    flex: 1;
+}
+
+.evento-info > span {
+    color: #6657A6;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+.evento-info h4 {
+    color: #40356F;
+
+    font-size: 18px;
+
+    margin: 4px 0;
+}
+
+.evento-info p {
+    color: #777080;
+
+    margin: 0;
+
+    font-size: 14px;
+}
+
+.hora {
+    color: #6657A6;
+
+    font-weight: bold;
+}
+
+
+/* ==========================================
+   EQUIPE
+========================================== */
+
+.titulo-equipe {
+    margin-bottom: 30px;
+}
+
+.titulo-equipe h2 {
+    color: #40356F;
+
+    font-size: 34px;
+
+    margin: 8px 0 3px;
+}
+
+.titulo-equipe p {
+    color: #777080;
+}
+
+.membro {
+    background-color: white;
+
+    border-radius: 22px;
+
+    text-align: center;
+
+    padding: 30px;
+
+    box-shadow: 0 5px 20px rgba(64, 53, 111, 0.07);
+}
+
+.foto-membro {
+    width: 90px;
+    height: 90px;
+
+    background-color: #FFF3B0;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 18px;
+
+    font-size: 48px;
+}
+
+.membro h4 {
+    color: #40356F;
+
+    font-size: 18px;
+
+    margin: 0;
+}
+
+.membro span {
+    color: #6657A6;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   CTA FINAL
+========================================== */
+
+.cta {
+    background-color: #6657A6;
+
+    padding: 75px 45px;
+
+    text-align: center;
+}
+
+.cta > div {
+    max-width: 750px;
+
+    margin: auto;
+}
+
+.cta span {
+    color: #FFF3B0;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1.5px;
+}
+
+.cta h2 {
+    color: white;
+
+    font-size: 42px;
+
+    margin: 15px 0;
+}
+
+.cta p {
+    color: #E5E0F0;
+
+    font-size: 17px;
+}
+
+.btn-cta {
+    background-color: #FFF3B0;
+
+    color: #40356F;
+
+    border-radius: 20px;
+
+    padding: 12px 28px;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+}
+
+.btn-cta:hover {
+    background-color: white;
+
+    color: #40356F;
+}
+
+
+/* ==========================================
+   RODAPÉ
+========================================== */
+
+footer {
+    background-color: #40356F;
+
+    color: white;
+
+    padding: 35px 45px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+footer strong {
+    font-size: 18px;
+}
+
+footer p {
+    color: #DCD6EB;
+
+    margin: 5px 0 0;
+}
+
+.footer-links {
+    display: flex;
+
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #E5E0F0;
+
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+.footer-links a:hover {
+    color: #FFF3B0;
+}
+
+/* ==========================================
+   CLUBE DO LIVRO
+   CSS PRINCIPAL
+========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F8F5FF;
+    color: #302A45;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    /* O projeto NÃO é responsivo */
+    min-width: 1200px;
+}
+
+
+/* ==========================================
+   CABEÇALHO
+========================================== */
+
+.cabecalho {
+    background-color: #FFF3B0;
+    border-bottom: 3px solid #E6D987;
+    height: 92px;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.container-fluid {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+
+/* MENU */
+
+.menu {
+    display: flex;
+    gap: 8px;
+    margin-left: 25px;
+}
+
+.nav-link {
+    color: #40356F !important;
+    font-weight: 600;
+    padding: 10px 15px !important;
+    border-radius: 12px;
+}
+
+.nav-link:hover,
+.nav-link.ativo {
+    background-color: #6657A6;
+    color: white !important;
+}
+
+
+/* PESQUISA */
+
+.pesquisa {
+    margin-left: auto;
+    width: 270px;
+}
+
+.pesquisa input {
+    border: 2px solid #DDD5F0;
+    border-radius: 20px 0 0 20px;
+    background-color: white;
+}
+
+.btn-pesquisa {
+    background-color: #6657A6;
+    color: white;
+    border-radius: 0 20px 20px 0;
+}
+
+.btn-pesquisa:hover {
+    background-color: #40356F;
+    color: white;
+}
+
+
+/* LOGIN */
+
+.btn-login {
+    margin-left: 15px;
+    background-color: #6657A6;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-login:hover {
+    background-color: #40356F;
+    color: white;
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.hero {
+    margin: 35px 45px;
+    height: 350px;
+
+    background-color: #FFF3B0;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 50px;
+    overflow: hidden;
+}
+
+.hero-texto {
+    width: 65%;
+}
+
+.badge-clube {
+    background-color: #6657A6;
+    color: white;
+
+    padding: 9px 15px;
+    border-radius: 20px;
+
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #40356F;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.hero h1 span {
+    color: #6657A6;
+}
+
+.hero p {
+    font-size: 18px;
+    width: 650px;
+    color: #5B536B;
+}
+
+.livro-decoracao {
+    font-size: 170px;
+    margin-left: 100px;
+}
+
+
+/* BOTÕES */
+
+.btn-principal {
+    background-color: #6657A6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-weight: 600;
+}
+
+.btn-principal:hover {
+    background-color: #40356F;
+    color: white;
+}
+
+.btn-secundario {
+    background-color: white;
+    color: #6657A6;
+    border: 2px solid #6657A6;
+    border-radius: 20px;
+
+    padding: 10px 23px;
+    margin-left: 10px;
+}
+
+.btn-secundario:hover {
+    background-color: #6657A6;
+    color: white;
+}
+
+.btn-outline-roxo {
+    border: 2px solid #6657A6;
+    color: #6657A6;
+    border-radius: 18px;
+}
+
+.btn-outline-roxo:hover {
+    background-color: #6657A6;
+    color: white;
+}
+
+
+/* ==========================================
+   SEÇÕES
+========================================== */
+
+.secao {
+    padding: 30px 45px 50px;
+}
+
+.titulo-secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.titulo-secao h2 {
+    color: #40356F;
+    font-weight: 700;
+}
+
+.titulo-secao p {
+    color: #777080;
+}
+
+
+/* ==========================================
+   CARDS DOS LIVROS
+========================================== */
+
+.livro-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(64, 53, 111, 0.08);
+}
+
+.capa {
+    height: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 80px;
+}
+
+.capa-1 {
+    background-color: #E6D8FF;
+}
+
+.capa-2 {
+    background-color: #FFF3B0;
+}
+
+.capa-3 {
+    background-color: #DCCFF8;
+}
+
+.capa-4 {
+    background-color: #FFEAA7;
+}
+
+.categoria {
+    color: #6657A6;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-title {
+    color: #40356F;
+    margin-top: 8px;
+}
+
+.card-text {
+    color: #777080;
+}
+
+.btn-card {
+    background-color: #6657A6;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 18px;
+}
+
+.btn-card:hover {
+    background-color: #40356F;
+    color: white;
+}
+
+
+/* ==========================================
+   COMO FUNCIONA
+========================================== */
+
+.como-funciona {
+    background-color: #FFF3B0;
+    padding: 50px 45px;
+    text-align: center;
+}
+
+.como-funciona h2 {
+    color: #40356F;
+}
+
+.subtitulo {
+    color: #6C6578;
+}
+
+.funcao {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    height: 190px;
+}
+
+.icone {
+    font-size: 40px;
+}
+
+.funcao h4 {
+    color: #40356F;
+}
+
+.funcao p {
+    color: #777080;
+}
+
+
+/* ==========================================
+   RODAPÉ
+========================================== */
+
+footer {
+    background-color: #40356F;
+    color: white;
+
+    padding: 30px 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+/* ==========================================
+   PÁGINAS INTERNAS
+========================================== */
+
+.pagina {
+    padding: 45px;
+}
+
+.titulo-pagina {
+    margin-bottom: 30px;
+}
+
+.titulo-pagina h1 {
+    color: #40356F;
+    font-weight: 700;
+}
+
+.titulo-pagina p {
+    color: #777080;
+}
+
+
+/* ==========================================
+   LOGIN
+========================================== */
+
+.pagina-login {
+    background-color: #F8F5FF;
+}
+
+.login-container {
+    height: calc(100vh - 92px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: white;
+
+    width: 430px;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 30px rgba(64, 53, 111, 0.1);
+}
+
+.login-icone {
+    font-size: 55px;
+}
+
+.login-box h1 {
+    color: #40356F;
+    margin-top: 10px;
+}
+
+.login-box > p {
+    color: #777080;
+}
+
+.input-login {
+    border: 2px solid #DDD5F0;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.input-login:focus {
+    border-color: #6657A6;
+    box-shadow: 0 0 0 3px rgba(102, 87, 166, 0.15);
+}
+
+.cadastro {
+    margin-top: 25px;
+}
+
+.cadastro a {
+    color: #6657A6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ==========================================
+   CHAT
+========================================== */
+
+.chat-area {
+    display: flex;
+
+    height: 580px;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(64, 53, 111, 0.08);
+}
+
+.usuarios {
+    width: 280px;
+
+    padding: 25px;
+
+    background-color: #FFF8D6;
+
+    border-right: 2px solid #EEE5BC;
+}
+
+.usuarios h5 {
+    color: #40356F;
+    margin-bottom: 20px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px;
+
+    border-radius: 15px;
+
+    margin-bottom: 8px;
+}
+
+.usuario.selecionado {
+    background-color: #E6D8FF;
+}
+
+.usuario small {
+    display: block;
+    color: #777080;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    border-radius: 50%;
+}
+
+
+/* CHAT */
+
+.chat {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 20px 25px;
+
+    background-color: #F8F5FF;
+
+    border-bottom: 1px solid #E5E0EF;
+}
+
+.chat-header h5 {
+    color: #40356F;
+    margin: 0;
+}
+
+.chat-header small {
+    color: #777080;
+}
+
+.mensagens {
+    flex: 1;
+
+    padding: 25px;
+
+    background-color: #FCFBFF;
+}
+
+.mensagem {
+    width: 450px;
+
+    padding: 12px 17px;
+
+    margin-bottom: 15px;
+
+    border-radius: 18px;
+}
+
+.mensagem p {
+    margin: 5px 0;
+}
+
+.mensagem small {
+    color: #777080;
+}
+
+.recebida {
+    background-color: #F0EBFF;
+}
+
+.enviada {
+    background-color: #FFF3B0;
+
+    margin-left: auto;
+}
+
+.campo-mensagem {
+    display: flex;
+
+    padding: 15px;
+
+    gap: 10px;
+
+    border-top: 1px solid #E5E0EF;
+}
+
+.campo-mensagem input {
+    border-radius: 20px;
+}
+
+
+/* ==========================================
+   PÓDIO
+========================================== */
+
+.podio {
+    display: flex;
+
+    justify-content: center;
+    align-items: end;
+
+    gap: 25px;
+
+    height: 400px;
+
+    margin-bottom: 30px;
+}
+
+.lugar {
+    width: 230px;
+
+    text-align: center;
+
+    background-color: white;
+
+    border-radius: 25px 25px 0 0;
+
+    padding-top: 25px;
+
+    position: relative;
+}
+
+.primeiro {
+    height: 360px;
+}
+
+.segundo {
+    height: 290px;
+}
+
+.terceiro {
+    height: 240px;
+}
+
+.avatar-grande {
+    font-size: 60px;
+}
+
+.lugar h3 {
+    color: #6657A6;
+    font-weight: bold;
+}
+
+.lugar h4 {
+    color: #40356F;
+}
+
+.lugar p {
+    color: #777080;
+}
+
+.torre {
+    background-color: #6657A6;
+    color: white;
+
+    padding: 15px;
+
+    font-weight: bold;
+}
+
+.coroa {
+    font-size: 35px;
+}
+
+.tabela-podio {
+    border: none;
+    border-radius: 20px;
+}
+
+.tabela-podio h4 {
+    color: #40356F;
+}
+
+.table th {
+    color: #6657A6;
+}
+
+
+/* ==========================================
+   CALENDÁRIO
+========================================== */
+
+.calendario {
+    background-color: white;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    width: 800px;
+
+    float: left;
+}
+
+.mes {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.mes h2 {
+    color: #40356F;
+}
+
+.dias-semana,
+.dias {
+    display: grid;
+
+    grid-template-columns: repeat(7, 1fr);
+
+    gap: 8px;
+}
+
+.dias-semana div {
+    text-align: center;
+
+    font-weight: bold;
+
+    color: #6657A6;
+
+    padding: 10px;
+}
+
+.dias div {
+    height: 75px;
+
+    border: 1px solid #E8E3F2;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    background-color: #FCFBFF;
+}
+
+.dias div:hover {
+    background-color: #FFF3B0;
+}
+
+.dia-evento {
+    background-color: #E6D8FF !important;
+    color: #40356F;
+    font-weight: bold;
+}
+
+.dia-evento span {
+    display: block;
+
+    font-size: 11px;
+
+    background-color: #6657A6;
+
+    color: white;
+
+    padding: 3px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    margin-top: 5px;
+}
+
+
+/* EVENTOS */
+
+.eventos {
+    margin-left: 840px;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    min-height: 350px;
+}
+
+.eventos h3 {
+    color: #40356F;
+    margin-bottom: 25px;
+}
+
+.evento {
+    display: flex;
+
+    gap: 15px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #EEEAF5;
+}
+
+.data-evento {
+    width: 55px;
+    height: 55px;
+
+    background-color: #6657A6;
+
+    color: white;
+
+    border-radius: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+.data-evento small {
+    font-size: 9px;
+}
+
+.evento strong {
+    color: #40356F;
+}
+
+.evento p {
+    color: #777080;
+
+    margin: 3px 0;
+}
+
+
+/* ==========================================
+   EQUIPE
+========================================== */
+
+.equipe {
+    margin-top: 30px;
+}
+
+.integrante {
+    border: none;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(64, 53, 111, 0.08);
+}
+
+.foto-integrante {
+    height: 200px;
+
+    background-color: #FFF3B0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 90px;
+}
+
+.integrante h4 {
+    color: #40356F;
+}
+
+.integrante span {
+    color: #6657A6;
+
+    font-weight: bold;
+}
+
+.integrante p {
+    color: #777080;
+
+    margin-top: 12px;
+}
+equipe.html {font-family: times new roman, times, serif;}
+
+/* ==========================================
+   PÁGINA DA EQUIPE
+   INTEGRAÇÃO COM O CSS PRINCIPAL
+========================================== */
+
+
+/* ==========================================
+   HERO DA EQUIPE
+========================================== */
+
+.equipe-hero {
+    width: calc(100% - 90px);
+
+    height: 350px;
+
+    margin: 35px 45px;
+
+    padding: 45px 65px;
+
+    background-color: #FFF3B0;
+
+    border-radius: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+
+.equipe-hero-conteudo {
+    width: 65%;
+}
+
+
+.equipe-hero h1 {
+    margin: 15px 0;
+
+    color: #40356F;
+
+    font-size: 43px;
+
+    line-height: 1.1;
+
+    font-weight: 700;
+}
+
+
+.equipe-hero h1 span {
+    display: block;
+
+    color: #6657A6;
+}
+
+
+.equipe-hero p {
+    width: 600px;
+
+    margin: 0;
+
+    color: #625B70;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+
+/* IMAGEM DO HERO */
+
+.equipe-hero-imagem {
+    width: 30%;
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.equipe-hero-imagem img {
+    width: 230px;
+
+    height: 230px;
+
+    object-fit: contain;
+}
+
+
+/* ÍCONE DO TÍTULO */
+
+.equipe-hero .mini-titulo img {
+    width: 18px;
+
+    height: 18px;
+
+    object-fit: contain;
+
+    vertical-align: middle;
+
+    margin-right: 5px;
+}
+
+
+/* ==========================================
+   ÁREA PRINCIPAL DA EQUIPE
+========================================== */
+
+.equipe-container {
+    padding: 60px 45px 75px;
+
+    background-color: #F8F5FF;
+}
+
+
+/* TÍTULO */
+
+.equipe-titulo {
+    margin-bottom: 35px;
+}
+
+
+.equipe-titulo > span {
+    color: #6657A6;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+}
+
+
+.equipe-titulo h2 {
+    margin: 8px 0;
+
+    color: #40356F;
+
+    font-size: 32px;
+
+    font-weight: 700;
+}
+
+
+.equipe-titulo p {
+    margin: 0;
+
+    color: #777080;
+
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   CARDS DOS INTEGRANTES
+========================================== */
+
+.equipe-card {
+    height: 370px;
+
+    padding: 30px 25px;
+
+    background-color: white;
+
+    border: none;
+
+    border-radius: 24px;
+
+    text-align: center;
+
+    box-shadow: 0 7px 25px rgba(64, 53, 111, 0.08);
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+
+.equipe-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 30px rgba(64, 53, 111, 0.14);
+}
+
+
+/* ==========================================
+   FOTO DOS INTEGRANTES
+========================================== */
+
+.foto-integrante {
+    width: 125px;
+
+    height: 125px;
+
+    margin: 0 auto 20px;
+
+    padding: 5px;
+
+    background-color: #FFF3B0;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+
+.foto-integrante img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+
+/* ==========================================
+   FUNÇÃO
+========================================== */
+
+.funcao {
+    display: inline-block;
+
+    margin-bottom: 8px;
+
+    color: #6657A6;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.2px;
+}
+
+
+/* ==========================================
+   NOME
+========================================== */
+
+.equipe-card h3 {
+    margin: 0 0 9px;
+
+    color: #40356F;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================
+   DESCRIÇÃO
+========================================== */
+
+.equipe-card p {
+    width: 90%;
+
+    margin: 0 auto;
+
+    color: #777080;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   FRASE FINAL
+========================================== */
+
+.equipe-frase {
+    padding: 65px 45px;
+
+    background-color: #40356F;
+
+    text-align: center;
+}
+
+
+.equipe-frase > div {
+    width: 700px;
+
+    margin: 0 auto;
+}
+
+
+.equipe-frase > div > img {
+    width: 32px;
+
+    height: 32px;
+
+    object-fit: contain;
+
+    margin-bottom: 10px;
+}
+
+
+.equipe-frase h2 {
+    margin: 0 0 10px;
+
+    color: white;
+
+    font-size: 30px;
+
+    line-height: 1.4;
+
+    font-weight: 600;
+}
+
+
+.equipe-frase p {
+    margin: 0;
+
+    color: #DDD7ED;
+
+    font-size: 15px;
+}
+
+/* ==========================================
+   CARDS DA EQUIPE
+========================================== */
+
+.equipe-card {
+    width: 100%;
+    height: 350px;
+
+    padding: 28px 25px;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #E5DFF2;
+
+    border-radius: 24px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 7px 25px rgba(64, 53, 111, 0.08);
+
+    overflow: hidden;
+
+    transition: 0.25s ease;
+}
+
+
+.equipe-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 30px rgba(64, 53, 111, 0.14);
+}
+
+
+/* ==========================================
+   FOTO
+========================================== */
+
+.foto-integrante {
+    flex-shrink: 0;
+
+    width: 125px;
+    height: 125px;
+
+    margin-bottom: 18px;
+
+    padding: 5px;
+
+    background-color: #FFF3B0;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+
+.foto-integrante img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+
+/* ==========================================
+   FUNÇÃO
+========================================== */
+
+.funcao {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #6657A6;
+
+    font-size: 10px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+
+    letter-spacing: 1.3px;
+}
+
+
+/* ==========================================
+   NOME
+========================================== */
+
+.equipe-card h3 {
+    width: 100%;
+
+    margin: 0 0 10px;
+
+    color: #40356F;
+
+    font-size: 21px;
+
+    line-height: 1.25;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================
+   DESCRIÇÃO
+========================================== */
+
+.equipe-card p {
+    width: 90%;
+
+    margin: 0;
+
+    color: #5B5666;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   REMOVER REDES SOCIAIS
+========================================== */
+
+.social {
+    display: none;
+}
+
+
+/* ==========================================
+   COLUNAS
+========================================== */
+
+.equipe-container .row {
+    margin-left: -12px;
+    margin-right: -12px;
+
+    row-gap: 24px;
+}
+
+
+.equipe-container .col-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
